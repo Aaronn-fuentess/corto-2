@@ -21,29 +21,29 @@ int main()
         if (edad > 0 && edad <= 12)
         {
             talla = 34;
-            cout << "edad:  " << edad<<endl;
-            cout << "talla  recomendada: " << talla<<endl;
+            cout << "edad:  " << edad << endl;
+            cout << "talla  recomendada: " << talla << endl;
         }
 
         else if (edad >= 13 && edad <= 17)
         {
             talla = 38;
-            cout << "edad: " << edad<<endl;
-            cout << "talla recomendada: " << talla<<endl;
+            cout << "edad: " << edad << endl;
+            cout << "talla recomendada: " << talla << endl;
         }
 
-        else if (edad >= 18 && edad <= 634)
+        else if (edad >= 18 && edad <= 64)
         {
-            talla = 38;
-            cout << "edad: " << edad<<endl;
-            cout << "talla recomendada: " << talla<<endl;
+            talla = 40;
+            cout << "edad: " << edad << endl;
+            cout << "talla recomendada: " << talla << endl;
         }
 
         else if (edad > 65 && edad <= 100)
         {
-            talla = 38;
+            talla = 42;
             cout << "edad: " << edad;
-            cout << "talla recomendada: " << talla<<endl;
+            cout << "talla recomendada: " << talla << endl;
         }
     }
 
